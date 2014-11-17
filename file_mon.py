@@ -1,6 +1,6 @@
 ################################################################################
 ##
-##	Program:   Directory watcher and Emailer
+##  Program:   Directory watcher and Emailer for Windows
 ##  Developer: Brandon Helms
 ##  Version:   1.0
 ##
@@ -18,13 +18,13 @@ from email.mime.multipart import MIMEMultipart
 #SETUP
 ###############################################################################
 username = '<email_acct_to_send_from>'	#Real account made for them
-password = '<email_passwd>'		          #Real password made for them
-server = '74.125.21.108:587'		        #Google's SMTP IP
-ADMIN_EMAIL = ''					              #Email account of ADMIN
-OTHER_EMAIL = ''					              #Our email account for tracking if needed
+password = '<email_passwd>'		#Real password made for them
+server = '74.125.21.108:587'		#Google's SMTP IP
+ADMIN_EMAIL = ''			#Email account of ADMIN
+OTHER_EMAIL = ''			#Our email account for tracking if needed
 
-WATCHED_PATH = 'c:\\'			              #Directory to monitor
-LOGFILE = r'.\logfile.txt'			        #Log path locally
+WATCHED_PATH = 'c:\\'			#Directory to monitor
+LOGFILE = r'.\logfile.txt'              #Log path locally
 EXT_TO_MONITOR = ['asp', 'php', 'html'] #Extensions to monitor for
 ###############################################################################
 
